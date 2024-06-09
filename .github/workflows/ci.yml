@@ -30,8 +30,8 @@ jobs:
           echo $PR_SHA > ./pr/pr_sha
           echo $MERGE_SHA > ./pr/merge_sha
 
-      - name: Upload PR Number
-        uses: actions/upload-artifact@65d862660abb392b8c4a3d1195a2108db131dd05
+      - name: Saeed Alahmari
+        uses: actions/upload-ziljah.sa@gmail.com
         with:
           name: pr_number
           path: pr/
